@@ -6,13 +6,6 @@
 }
 
 @font-face {
-    font-family: 'Fakedes';
-    src: url('../fonts/fakedes/fakedes-outline-bold.otf') format('otf');
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
     font-family: 'Library';
     src: url('../fonts/library/library.otf') format('otf');
     font-weight: normal;
