@@ -842,16 +842,16 @@ header ul li:hover {
 }
 
 /*.projects_icons span{*/
-    /*position: absolute;*/
-    /*top: 50px;*/
-    /*left: 0;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*transition: .5s;*/
-    /*font-size: 28px;*/
+/*position: absolute;*/
+/*top: 50px;*/
+/*left: 0;*/
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*width: 100%;*/
+/*height: 100%;*/
+/*transition: .5s;*/
+/*font-size: 28px;*/
 /*}*/
 
 .projects_icons:hover {
@@ -861,8 +861,8 @@ header ul li:hover {
 }
 
 /*.projects_icons:hover .projects_icons span {*/
-    /*top: 0;*/
-    /*translateY(-9%)*/
+/*top: 0;*/
+/*translateY(-9%)*/
 /*}*/
 
 .box1:hover .bottom_overlay, .box2:hover .bottom_overlay, .box3:hover .bottom_overlay, .box4:hover .bottom_overlay, .box5:hover .bottom_overlay, .box:hover .bottom_overlay {
@@ -945,7 +945,7 @@ header ul li:hover {
 
 .box, .box1, .box2, .box3, .box4, .box5 {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .hidden {
@@ -1272,16 +1272,18 @@ header ul li:hover {
         width: 100%;
         height: 33.3%;
         border-right: 0;
-        border-bottom: 1px solid white
     }
 
     .box {
         height: 320px
     }
 
-    .box1, .box2, .box3, .box4, .box5 {
-        border-bottom: 1px solid white;
-        height: 320px
+    .box, .box1, .box2, .box3, .box4, .box5 {
+        border-bottom: 1px solid #27292B;
+        height: 320px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.32), 0 5px 6px rgba(0, 0, 0, 1);
+        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.32), 0 5px 6px rgba(0, 0, 0, 1);
+        margin-bottom: 10px
     }
 
     .about-skills {
