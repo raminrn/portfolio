@@ -1281,8 +1281,8 @@ header ul li:hover {
     .box, .box1, .box2, .box3, .box4, .box5 {
         border-bottom: 1px solid #27292B;
         height: 320px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.32), 0 5px 6px rgba(0, 0, 0, 1);
-        -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.32), 0 5px 6px rgba(0, 0, 0, 1);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.32), 0 4px 8px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.32), 0 4px 8px rgba(0, 0, 0, 0.6);
         margin-bottom: 10px
     }
 
